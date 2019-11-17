@@ -41,7 +41,8 @@ export class ButcherShop extends Component {
       <div class="butcher-shop">
         <p>Hello! We have the following products for sale today:</p>
         <ul>
-          BUTCHER_PRODUCTS.map((product)
+          BUTCHER_PRODUCTS.map((product) =>
+            
         </ul>
       </div>
       )
