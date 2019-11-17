@@ -36,7 +36,9 @@ export class InFrontOfYou extends Component {
 }
 
 export class ButcherShop extends Component {
-  const products = BUTCHER_PRODUCTS.map((product) => <li>{product}</li>);
+  const products = BUTCHER_PRODUCTS.map((product) => 
+    <li>{product}</li>
+    );
   
   render() {
     return (
